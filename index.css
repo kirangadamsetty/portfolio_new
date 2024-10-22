@@ -24,6 +24,7 @@
 .banner-section{
     background-image:url("/assets/portfolio-banner2.jpg");
     background-size:cover;
+    background-color:#1e1345;
     min-height:100vh;
     min-width:100vw;
     display:flex;
@@ -35,6 +36,7 @@
 .padding{
     padding-top:40px;
     padding-bottom:40px;
+    padding:10px;
 }
 
 .banner-section h1{
@@ -364,7 +366,16 @@ form input, form textarea{
     margin-left:-8px;
 }
 
-
+@media(max-width :768px){
+    h4{
+        font-size:35px!important;
+    }h5{
+        font-size:25px!important;
+    }.experience-image a{
+        height:60px!important;
+        width:60px!important;
+    }
+}
 
 
 
