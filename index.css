@@ -283,6 +283,10 @@ h6{
 }
 .navbar-toggler{
     background-color:rgb(106, 106, 222)!important;
+    border-radius:100%!important;
+    height:60px;
+    width:60px;
+    
 }
 .resume-section h4{
     font-size:45px;
