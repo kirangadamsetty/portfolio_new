@@ -346,6 +346,10 @@ form input, form textarea{
     font-size:18px;
    color:white;
 }
+.progress .progress-bar{
+    background-color:rgb(106, 106, 222)!important;
+}
+
 @media(max-width:768px){
     form input, form textarea{
         font-size:14px;
