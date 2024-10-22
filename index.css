@@ -269,7 +269,11 @@ h6{
  border-radius:10px;
  margin-bottom:20px;
 }
-
+@media (max-width:768px){
+    .about-image img{
+        height:300px;
+    }
+}
 
 .resume-section{
     background-color:#1e1345;
