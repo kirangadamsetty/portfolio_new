@@ -8,7 +8,7 @@ let uniqueNo = null
 let value = ""
 
 uniqueNo = setInterval(()=>{
-   if(i === names.length-1){
+   if(i === names.length){
     i = 0
     value = ""
    }
