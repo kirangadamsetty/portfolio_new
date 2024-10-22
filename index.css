@@ -281,7 +281,9 @@ h6{
     color:rgb(106, 106, 222);
     text-align:center;
 }
-
+.navbar-toggler{
+    background-color:rgb(106, 106, 222)!important;
+}
 .resume-section h4{
     font-size:45px;
     font-weight:600;
