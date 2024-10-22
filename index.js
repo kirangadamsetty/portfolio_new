@@ -9,12 +9,13 @@ let value = ""
 
 uniqueNo = setInterval(()=>{
    if(i === names.length-1){
-    clearInterval(uniqueNo)
+    i = 0
+    value = ""
    }
    value = value + names[i]
   element.textContent  = value
   i++;
-}, 150)
+}, 200)
 
 
     
