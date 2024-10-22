@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+  font-family:"Poppins";
+  text-decoration: none!important;
+
+}
+
+.navbar-background{
+    background-color:#1e1345!important;
+}
+
+.navbar-background a{
+  color:white!important;
+}
+
+.navbar-brand img{
+    height:60px;
+    width:110px;
+}
+
+.banner-section{
+    background-image:url("/assets/portfolio-banner2.jpg");
+    background-size:cover;
+    min-height:100vh;
+    min-width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.padding{
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.banner-section h1{
+    color:white;
+    font-size:58px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+.banner-section h1 span{
+    color:rgb(106, 106, 222);
+}
+.banner-section p{
+    color:white;
+    font-weight:600;
+    font-size:30px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+
+button{
+    background-color:rgb(106, 106, 222);
+    color:white;
+    font-size:20px;
+    font-weight:500;
+    padding:15px 20px;
+    border:none;
+    border-radius:30px!important;
+    
+}
+button:hover{
+    background-color:white;
+    color:black;
+    
+    transition: 0.9s ease;
+}
+.banner-section img{
+   width:350px;
+    height:350px;
+    border-radius:100%;
+    background-size:cover;
+    margin-left:15px;
+    box-shadow:0px 0px 2px 2px black;
+    border:none;
+    
+}
+@media(max-width:992px){
+    .banner-section h1{
+        font-size:40px;
+        margin-top:20px;
+    }
+    .banner-section p{
+        font-size:25px;
+    }
+ .banner-section{
+    text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+
+
+
+ }.banner-section img{
+    width:300px;
+    height:300px;
+ }
+}
+@media(max-width:768px){
+    .banner-section img{
+        width:200px;
+        height:200px;
+        margin-left:-10px;
+    }
+.banner-section h1{
+    font-size:38px;
+}
+.banner-section p{
+    font-size:22px;
+}
+}
+
+
+.box{
+    background-color:rgb(106, 106, 222);;
+    border-radius:8px;
+    margin:10px auto;
+}
+.box h2{
+    font-size:25px!important;
+}
+.banner-bottom-section{
+    background-color:#1e1345;
+    background-size:cover;
+    min-width:100vw;
+    background-size:cover;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.banner-bottom-section h2{
+    font-size:30px;
+    color:white;
+    font-weight:500;
+    margin-bottom:28px;
+}
+.box img{
+    width:60px;
+    height:60px;
+    margin-bottom:40px;
+}
+.box p{
+    font-size:18px;
+    font-weight:500;
+  
+}
+.experience-bottom-section .box h2{
+    font-size:35px!important;
+}
+.about-section{
+    background-color:#1e1345;
+    background-size:cover;
+    min-height:max-content;
+    min-width:100vw;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.about-section h3{
+    font-size:30px;
+    color:rgb(106, 106, 222);
+    text-align:center;
+}
+
+.about-section h4{
+    font-size:45px;
+    font-weight:600;
+    color:white;
+   margin-bottom:50px!important;
+
+    text-align:center;
+} 
+
+.about-section h5{
+    font-size:30px;
+    font-weight:600;
+    color:white;
+}
+
+.about-section p{
+    font-size:18px;
+    font-weight:500;
+    color:rgb(106, 106, 222);
+}
+h6{
+    color:white;
+}
+
+.table{
+    border:1px solid white;
+   
+    border-radius:5px;
+}
+.table .col-6{
+    padding:10px;
+    width:fit-content;
+   
+}
+
+.first-col{
+    border-right:1px solid white;
+  
+}
+.experience-bottom-section{
+    background-color:#1e1345;
+    background-size:cover;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.experience-bottom-section h2{
+    font-size:40px;
+    color:white;
+    font-weight:500;
+   
+}
+
+.experience-bottom-section p{
+    font-size:20px;
+    font-weight:500;
+}
+
+.progress-bar{
+    font-size:18px;
+    
+    font-weight:500;
+}
+.skills-section{
+    background-color:#1e1345;
+    background-size:cover;
+   
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.skills-section h3{
+    font-size:30px;
+    color:rgb(106, 106, 222);
+    text-align:center;
+}
+
+.skills-section h4{
+    font-size:45px;
+    font-weight:600;
+    color:white;
+   margin-bottom:50px!important;
+
+    text-align:center;
+} 
+.skills-section h5{
+    font-size:30px;
+    font-weight:600;
+    color:white;
+}
+
+.skills-section p{
+    font-size:18px;
+    font-weight:500;
+    color:rgb(106, 106, 222);
+}
+.skills-section h6{
+    font-size:16px;
+}
+.about-image img{
+ border-radius:10px;
+ margin-bottom:20px;
+}
+
+
+.resume-section{
+    background-color:#1e1345;
+    background-size:cover;
+   
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.resume-section h3{
+    font-size:30px;
+    color:rgb(106, 106, 222);
+    text-align:center;
+}
+
+.resume-section h4{
+    font-size:45px;
+    font-weight:600;
+    color:white;
+   
+    margin-bottom:50px!important;
+    text-align:center;
+} 
+
+
+.resume-section p{
+    font-size:18px;
+    font-weight:500;
+    color:rgb(106, 106, 222);
+}
+.resume-section h6{
+    font-size:16px;
+}
+
+.experience-image a img{
+    height:30px;
+    width:30px
+}
+.experience-image a{
+    background-color:rgb(106, 106, 222);
+   width:80px;
+   height:80px;
+   padding:10px;
+   border-radius:100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right:20px;
+
+
+
+
+}
+.resume-section h5{
+    font-size:25px;
+    color:white;
+}
+
+form input, form textarea{
+    border-radius:5px;
+    background-color:transparent;
+    border:1px solid rgb(106, 106, 222);
+    margin:10px auto;
+    width:100%;
+    padding:8px;
+    font-size:18px;
+   color:white;
+}
+/* .spotify{
+    background-image:url("/assets/spotify_image.jpeg");
+    background-size:cover;
+    height:400px;
+    width:400px;
+} */
+
+
+.spotify img{
+  
+    width:100%;
+    background-size:cover;
+}
+
+.spotify p{
+    font-size:20px;
+    text-align:center;
+    margin:10px auto;
+}
+
+.email{
+    margin-left:-8px;
+}
+
+
+
+
+
