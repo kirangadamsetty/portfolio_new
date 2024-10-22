@@ -346,6 +346,14 @@ form input, form textarea{
     font-size:18px;
    color:white;
 }
+@media(max-width:768px){
+    form input, form textarea{
+        font-size:14px;
+    }
+}
+
+
+
 /* .spotify{
     background-image:url("/assets/spotify_image.jpeg");
     background-size:cover;
