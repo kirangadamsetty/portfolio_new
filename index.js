@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 },50)
                
                 experienceNumberValue = setInterval(()=>{
-                    if(experiencenumber === 2){
+                    if(experiencenumber === 1){
                         clearInterval(experienceNumberValue)
                     }
                  experience.textContent = `${experiencenumber}+`
