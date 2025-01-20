@@ -331,6 +331,11 @@ margin-right:20px;
 
 
 }
+@media(max-width:768px){
+    .about-image{
+        display: none !important;
+    }
+}
 .resume-section h5{
     font-size:25px;
     color:white;
