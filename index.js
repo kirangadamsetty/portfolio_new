@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 
 
                 projectsNumberValue = setInterval(()=>{
-                    if(projectsnumber === 30){
+                    if(projectsnumber === 10){
                         clearInterval(projectsNumberValue)
                     }
                  projects.textContent = `${projectsnumber}+`
